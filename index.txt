@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,8 +16,8 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="game.html">Games</a>
-            <a href="page1.html">Page 1</a>
-            <a href="page2.html">Page 2</a>
+            <a href="page1.html">Image Alignments</a>
+            <a href="page2.html">Image Gallery</a>
             <a href="code.html">Code Library</a>
         </nav>
     </header>
@@ -30,8 +29,7 @@
 
             <p>
                 Welcome to my personal homework website.
-                Here you can explore my HTML and CSS projects,
-                image examples, and some of my favorite games.
+                Here you can explore my HTML and CSS projects.
             </p>
 
             <p>
@@ -50,7 +48,7 @@
             </a>
 
             <a href="page1.html" class="action-card">
-                <h2>Image Alignment</h2>
+                <h2>Image Alignment / Gallery</h2>
                 <p>
                     Learn how images can be aligned with text
                     using different HTML and CSS techniques.
@@ -79,6 +77,8 @@
 
     <footer>
         <p>Homework Website | HTML & CSS Project</p>
+        <br>
+        <p>https://homeworkwebsite.pages.dev/ by Aminoroaya</p>
     </footer>
 
 </body>
