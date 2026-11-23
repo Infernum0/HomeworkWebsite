@@ -1,134 +1,85 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Image Alignment</title>
+    <title>Image Border Examples</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        .gallery img {
+            border-color: #8b5cf6;
+            border-width: 4px;
+            border-style: solid;
+
+            width: 130px;
+            height: 65px;
+
+            padding: 5px;
+            margin: 12px;
+
+            border-radius: 8px;
+            box-shadow: 0 0 12px #8b5cf6;
+
+            transition: 0.3s;
+        }
+
+        .gallery img:hover {
+            border-color: #00e5ff;
+            box-shadow: 0 0 18px #00e5ff;
+        }
+
+    </style>
 </head>
 
 <body>
 
     <header>
-        <h1>IMAGE ALIGNMENT</h1>
+        <h1>Homework Website</h1>
 
         <nav>
             <a href="index.html">Home</a>
             <a href="game.html">Games</a>
             <a href="page1.html">Page 1</a>
             <a href="page2.html">Page 2</a>
-            <a href="code.html">Code Library</a>
+            <a href="code.html">Code</a>
         </nav>
     </header>
 
-    <main>
+    <div class="intro">
 
-        <section class="intro">
-            <h2>HTML Image Alignment</h2>
+        <h2>Google Image Gallery</h2>
 
-            <p>
-                These examples show different ways to align images
-                with text using HTML and CSS.
-            </p>
-        </section>
+        <div class="gallery">
 
-        <div class="box">
+            <img src="https://s17.picofile.com/file/8414037800/logo.png"
+            alt="Google Logo">
 
-            <h3>1. Vertical Align Bottom</h3>
+            <br>
 
-            <p>
-                <b>Align Bottom</b>
+            <img src="https://s17.picofile.com/file/8414037800/logo.png"
+            alt="Google Logo">
 
-                <img src="https://media.tenor.com/TYGaQfylEvQAAAAj/auque-7-dias-tarde.gif"
-                     alt="Smiley Face"
-                     class="bottom">
+            <br>
 
-                <i>TEXT</i>
-            </p>
+            <img src="https://s17.picofile.com/file/8414037800/logo.png"
+            alt="Google Logo">
 
-        </div>
+            <br>
 
-        <div class="box">
+            <img src="https://s17.picofile.com/file/8414037800/logo.png"
+            alt="Google Logo">
 
-            <h3>2. Vertical Align Middle</h3>
+            <br>
 
-            <p>
-                <u>Aligned Middle</u>
-
-                <img src="https://media.tenor.com/TYGaQfylEvQAAAAj/auque-7-dias-tarde.gif"
-                     alt="Smiley Face"
-                     class="middle">
-
-                <b>TEST</b>
-            </p>
+            <img src="https://s17.picofile.com/file/8414037800/logo.png"
+            alt="Google Logo">
 
         </div>
 
-        <div class="box">
-
-            <h3>3. Vertical Align Top</h3>
-
-            <p>
-                Aligned Top
-
-                <img src="https://media.tenor.com/TYGaQfylEvQAAAAj/auque-7-dias-tarde.gif"
-                     alt="Smiley Face"
-                     class="top">
-
-                <b>TEXT</b>
-            </p>
-
-        </div>
-
-        <div class="box">
-
-            <h3>4. Float Right</h3>
-
-            <p>
-                <img src="https://media.tenor.com/TYGaQfylEvQAAAAj/auque-7-dias-tarde.gif"
-                     alt="Smiley Face"
-                     class="right">
-
-                Aligned right side
-
-                <br>
-                Haven't forgotten a thing. Never will.
-                <br>
-                - Johnny Silverhand
-            </p>
-
-            <div class="clear"></div>
-
-        </div>
-
-        <div class="box">
-
-            <h3>5. Float Left</h3>
-
-            <p>
-                <img src="https://media.tenor.com/TYGaQfylEvQAAAAj/auque-7-dias-tarde.gif"
-                     alt="Smiley Face"
-                     class="left">
-
-                Aligned left side
-
-                <br>
-                Remember, No Russian
-                <br>
-                - Vladimir A. Makarov
-            </p>
-
-            <div class="clear"></div>
-
-        </div>
-
-    </main>
-
-    <footer>
-        <p>Homework Website | Image Alignment</p>
-    </footer>
+    </div>
 
 </body>
 
