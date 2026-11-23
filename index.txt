@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>HOMEWORK WEBSITE</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="game.html">Games</a>
+            <a href="page1.html">Page 1</a>
+            <a href="page2.html">Page 2</a>
+            <a href="code.html">Code Library</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <h2>Welcome to My Website</h2>
+
+            <p>
+                Welcome to my personal homework website.
+                Here you can explore my HTML and CSS projects,
+                image examples, and some of my favorite games.
+            </p>
+
+            <p>
+                Choose one of the sections below to get started.
+            </p>
+        </section>
+
+        <section class="action-grid">
+
+            <a href="game.html" class="action-card">
+                <h2>Game Project</h2>
+                <p>
+                    Explore some of my favorite video games,
+                    characters, and memorable quotes.
+                </p>
+            </a>
+
+            <a href="page1.html" class="action-card">
+                <h2>Image Alignment</h2>
+                <p>
+                    Learn how images can be aligned with text
+                    using different HTML and CSS techniques.
+                </p>
+            </a>
+
+            <a href="page2.html" class="action-card">
+                <h2>Image Borders</h2>
+                <p>
+                    Explore different image borders,
+                    colors, sizes, and hover effects.
+                </p>
+            </a>
+
+            <a href="code.html" class="action-card">
+                <h2>Code Library</h2>
+                <p>
+                    View, copy, and download the source code
+                    of this website.
+                </p>
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Homework Website | HTML & CSS Project</p>
+    </footer>
+
+</body>
+
+</html>

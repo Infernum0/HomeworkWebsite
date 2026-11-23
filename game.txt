@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>FAVORITE GAMES</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="game.html">Games</a>
+            <a href="page1.html">Page 1</a>
+            <a href="page2.html">Page 2</a>
+            <a href="code.html">Code Library</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <h2>Legends Never Die</h2>
+
+            <p>
+                Some games are more than just entertainment.
+                They tell stories, create memories, and introduce
+                unforgettable characters.
+            </p>
+        </section>
+
+        <div class="game cyberpunk" style="--color: #fcee0a;">
+            <h2>Cyberpunk 2077</h2>
+
+            <p><strong>Character:</strong> Johnny Silverhand</p>
+
+            <blockquote>
+                "Wake the fuck up, Samurai. We have a city to burn."
+            </blockquote>
+
+            <em>Freedom is worth fighting for.</em>
+        </div>
+
+        <div class="game lastofus" style="--color: #8bc34a;">
+            <h2>The Last of Us</h2>
+
+            <p><strong>Character:</strong> Ellie Williams</p>
+
+            <blockquote>
+                "Endure and survive."
+            </blockquote>
+
+            <em>Even in the darkest moments, there is hope.</em>
+        </div>
+
+        <div class="game cod" style="--color: #d9534f;">
+            <h2>Call of Duty: Modern Warfare 2 (2009)</h2>
+
+            <p><strong>Character:</strong> Vladimir Makarov</p>
+
+            <blockquote>
+                "Remember, no Russian."
+            </blockquote>
+
+            <em>Some missions change everything.</em>
+        </div>
+
+        <div class="game daysgone" style="--color: #e67e22;">
+            <h2>Days Gone</h2>
+
+            <p><strong>Character:</strong> Deacon St. John</p>
+
+            <blockquote>
+                "Ride the Broken Road."
+            </blockquote>
+
+            <em>Keep riding. Keep surviving.</em>
+        </div>
+
+        <div class="game rdr2" style="--color: #c0392b;">
+            <h2>Red Dead Redemption 2</h2>
+
+            <p><strong>Character:</strong> Arthur Morgan</p>
+
+            <blockquote>
+                "We're thieves in a world that don't want us no more."
+            </blockquote>
+
+            <em>Revenge is a fool's game.</em>
+        </div>
+
+        <div class="game godofwar" style="--color: #3498db;">
+            <h2>God of War (2018)</h2>
+
+            <p><strong>Character:</strong> Kratos</p>
+
+            <blockquote>
+                "Don't be sorry. Be better."
+            </blockquote>
+
+            <em>A true warrior controls his emotions.</em>
+        </div>
+
+        <div class="game ghost" style="--color: #ecf0f1;">
+            <h2>Ghost of Tsushima</h2>
+
+            <p><strong>Character:</strong> Jin Sakai</p>
+
+            <blockquote>
+                "Honor died on the beach."
+            </blockquote>
+
+            <em>Sometimes, the right path is not the honorable one.</em>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Homework Website | Favorite Games</p>
+    </footer>
+
+</body>
+
+</html>

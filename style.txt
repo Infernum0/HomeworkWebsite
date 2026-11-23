@@ -1,0 +1,313 @@
+
+/* GENERAL */
+
+body {
+    margin: 0;
+    background-color: #080a12;
+    color: white;
+    font-family: Arial;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #101321;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid #a855f7;
+    box-shadow: 0 3px 20px #a855f744;
+}
+
+header h1 {
+    color: #d946ef;
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-shadow: 0 0 12px #d946ef;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1b2033;
+    border: 1px solid #353b55;
+    padding: 13px 25px;
+    margin: 6px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #a855f7;
+    border-color: #d946ef;
+    color: white;
+    box-shadow: 0 0 15px #a855f7;
+    transform: translateY(-3px);
+}
+
+
+/* MAIN */
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #22d3ee;
+}
+
+p {
+    color: #b8bdcc;
+    line-height: 1.8;
+}
+
+
+/* INTRO */
+
+.intro {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 750px;
+}
+
+.intro h2 {
+    color: #d946ef;
+    font-size: 32px;
+}
+
+
+/* INDEX */
+
+.action-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+.action-card {
+    display: block;
+    background-color: #121728;
+    border: 1px solid #343b55;
+    border-radius: 12px;
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.action-card h2 {
+    color: #d946ef;
+}
+
+.action-card:hover {
+    transform: translateY(-6px);
+    border-color: #22d3ee;
+    box-shadow: 0 0 20px #22d3ee44;
+}
+
+
+/* GAME */
+
+.game {
+    background-color: #141827;
+    border: 1px solid #343b55;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 750px;
+    transition: 0.3s;
+}
+
+.game:hover {
+    transform: translateY(-5px);
+    border-color: #d946ef;
+    box-shadow: 0 0 18px #a855f744;
+}
+
+.game h2 {
+    color: var(--color);
+}
+
+blockquote {
+    background-color: #20263a;
+    border-left: 3px solid var(--color);
+    padding: 15px;
+    color: white;
+    text-align: left;
+}
+
+em {
+    color: var(--color);
+}
+
+
+/* PAGE1 */
+
+.box {
+    background-color: #141827;
+    border: 1px solid #343b55;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 850px;
+    text-align: left;
+}
+
+.box h3 {
+    color: #22d3ee;
+}
+
+.box img {
+    width: 42px;
+    height: 42px;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.indent {
+    margin-left: 20px;
+}
+
+
+/* PAGE2 */
+
+.gallery {
+    background-color: #141827;
+    border: 1px solid #343b55;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 850px;
+}
+
+.gallery img {
+    border-color: #a855f7;
+    border-width: 4px;
+    border-style: solid;
+
+    width: 130px;
+    height: 65px;
+
+    padding: 5px;
+    margin: 12px;
+
+    border-radius: 8px;
+    box-shadow: 0 0 12px #a855f744;
+}
+
+.gallery img:hover {
+    border-color: #22d3ee;
+}
+
+
+/* CODE */
+
+.code-card {
+    background-color: #111626;
+    border: 1px solid #353b55;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+pre {
+    background-color: #080a12;
+    color: #22d3ee;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    text-align: left;
+}
+
+code {
+    font-family: Consolas, monospace;
+}
+
+
+/* BUTTONS */
+
+.button {
+    display: inline-block;
+    background-color: #a855f7;
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    margin: 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #22d3ee;
+    color: #080a12;
+    box-shadow: 0 0 15px #22d3ee;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #101321;
+    border-top: 1px solid #a855f7;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        padding: 10px 15px;
+        margin: 4px;
+    }
+
+    .action-grid {
+        grid-template-columns: 1fr;
+    }
+
+    main {
+        padding: 12px;
+    }
+
+}
