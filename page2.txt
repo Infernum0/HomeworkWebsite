@@ -81,5 +81,9 @@
     </div>
 
 </body>
-
+<footer>
+    Homework Website | Image Gallery / Borders 
+    <br>
+    <a href="https://infernum0.github.io/HomeworkWebsite/">HomeWorkWebsite</a><p>by Aminoroaya</p>
+</footer>
 </html>
